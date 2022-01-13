@@ -1,0 +1,34 @@
+.details {
+  margin-bottom: 94px;
+
+  & h3 {
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-color);
+    margin-bottom: 10px;
+  }
+  & p {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
+}
+
+.details__list {
+  display: flex;
+  margin: 0 -15px;
+}
+
+.details__num {
+  margin: 0 15px;
+}
+
+.details__ico {
+  background: #f5f4fa;
+  border-radius: 4px;
+  padding: 25px;
+  margin-bottom: 30px;
+}
